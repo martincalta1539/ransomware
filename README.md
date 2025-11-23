@@ -37,8 +37,8 @@ If the `thekey.key` file does not exist, you must generate it first (Please deta
 Initiates the encryption of files in the current folder and subfolders.
 
 ```bash
-
 python encrypt.py
+```
 
 ### 3. Decrypt 🔓
 
@@ -48,3 +48,4 @@ Open your command prompt or terminal in the project directory and execute:
 
 ```bash
 python decrypt.py
+```
