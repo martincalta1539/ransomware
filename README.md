@@ -20,7 +20,7 @@ This software is provided **strictly for educational purposes, simulations, and 
 
 * **Never run** these scripts (`encrypt.py`, `decrypt.py`) on a computer containing sensitive data you cannot afford to lose. Always use an **isolated testing environment (sandbox) or a Virtual Machine (VM)**.
 * **IMPORTANT:** The code encrypts **all data in the current directory and all its subdirectories**.
-* **THE KEY:** The file **`thekey.key`** is the critical encryption key. **DO NOT DELETE** it and **NEVER share it publicly**. Data cannot be decrypted without this key! (We recommend backing up the key to a safe, offline location after testing).
+* **THE KEY:** The file **`thekey.key`** is the critical encryption key. **DO NOT DELETE**. Data cannot be decrypted without this key!
 
 ---
 
@@ -39,3 +39,4 @@ Initiates the encryption of files in the current folder and subfolders.
 ```bash
 
 python encrypt.py
+
