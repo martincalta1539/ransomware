@@ -40,3 +40,11 @@ Initiates the encryption of files in the current folder and subfolders.
 
 python encrypt.py
 
+### 3. Decrypt 🔓
+
+This script uses the **`thekey.key`** file to decrypt all previously encrypted files. **The key must be present and match the one used for encryption!**
+
+Open your command prompt or terminal in the project directory and execute:
+
+```bash
+python decrypt.py
