@@ -24,24 +24,6 @@ This software is provided **strictly for educational purposes, simulations, and 
 
 ---
 
-## ⚙️ Requirements and Installation
-
-This project requires Python 3.x and the necessary libraries (e.g., `cryptography`).
-
-1.  **Create a Virtual Environment** (Recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # For Linux/macOS
-    .\venv\Scripts\activate   # For Windows
-    ```
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(**Note:** This assumes you have a `requirements.txt` file listing all required libraries).*
-
----
-
 ##  How to Use
 
 For correct operation, **all files** (`encrypt.py`, `decrypt.py`, and `thekey.key`) must be in the same folder.
@@ -55,4 +37,5 @@ If the `thekey.key` file does not exist, you must generate it first (Please deta
 Initiates the encryption of files in the current folder and subfolders.
 
 ```bash
+
 python encrypt.py
